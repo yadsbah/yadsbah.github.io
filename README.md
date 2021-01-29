@@ -1,1 +1,0 @@
-# yadsbah.github.io
