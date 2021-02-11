@@ -4,25 +4,27 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "d3dacfe330edd28e3d2769e20c7c51b8",
-"index.html": "4739318a537f58695a2e017de511c17c",
-"/": "4739318a537f58695a2e017de511c17c",
-"main.dart.js": "a08002e4cebe43760161e6a8ff06ad34",
+"index.html": "5ea587c15d82744c9dc9dc7367c6a11c",
+"/": "5ea587c15d82744c9dc9dc7367c6a11c",
+"main.dart.js": "d6ae94a0f7f475284e4dde8fa88feccf",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "b08308019e29b02c94007beac0c86317",
-"assets/AssetManifest.json": "0c6f8c5e5e6e8b1921088775d10a4231",
+"assets/AssetManifest.json": "7696767859a2c4bb928dd10db26605e2",
 "assets/NOTICES": "86dee3fe3da49683b99a7c73a3fd199e",
 "assets/img/krd.png": "e56547fbfe3a642270012ed00bf97a81",
 "assets/img/background.jpg": "3f082e842f1f30b02b8403943ab650d7",
 "assets/img/iq.jpg": "1d7a3d077fe59e92918085f21a6eb43e",
 "assets/img/logo.jpeg": "cbf729bca637792ba169e158a2484cc3",
 "assets/img/uk.png": "f9e4438129c3dbdd3f609d099794e3cd",
-"assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
+"assets/FontManifest.json": "4bb9efb667bbadb30cc31ab83b7a7d19",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d80ca32233940ebadc5ae5372ccd67f9",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
+"assets/fonts/Helve.ttf": "0a13c540938b1b7dd3996b02ea568e5f",
+"assets/fonts/PT.ttf": "5f7303c0e7f09925586e218ab8fd9b19",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac"
 };
 
