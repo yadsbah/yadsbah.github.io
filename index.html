@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Offical site of IQ Menus.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.jpg" />
+
+  <title>IQ Menus</title>
+  <link rel="manifest" href="manifest.json">
+
+
+  <style>
+    body {
+      background: #eaecfa;
+    }
+
+    .loader {
+      width: 250px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: helvetica, arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 900;
+      color: #ce4233;
+      letter-spacing: 0.2em;
+    }
+
+    .loader::before,
+    .loader::after {
+      content: "";
+      display: block;
+      width: 15px;
+      height: 15px;
+      background: #ce4233;
+      position: absolute;
+      -webkit-animation: load 0.7s infinite alternate ease-in-out;
+      animation: load 0.7s infinite alternate ease-in-out;
+    }
+
+    .loader::before {
+      top: 0;
+    }
+
+    .loader::after {
+      bottom: 0;
+    }
+
+    @-webkit-keyframes load {
+      0% {
+        left: 0;
+        height: 30px;
+        width: 15px;
+      }
+
+      50% {
+        height: 8px;
+        width: 40px;
+      }
+
+      100% {
+        left: 235px;
+        height: 30px;
+        width: 15px;
+      }
+    }
+
+    @keyframes load {
+      0% {
+        left: 0;
+        height: 30px;
+        width: 15px;
+      }
+
+      50% {
+        height: 8px;
+        width: 40px;
+      }
+
+      100% {
+        left: 235px;
+        height: 30px;
+        width: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <div class="loader">Loading...</div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2640205891');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+
+</html>
