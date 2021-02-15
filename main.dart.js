@@ -73088,7 +73088,7 @@ q=U.HK("img/icon.png",m,300)
 p=T.bR(m,30,m)
 o=P.aB(C.x.av(178.5),255,255,255)
 n=t.Y
-return M.dY(m,M.bA(C.X,E.fF(T.bP(H.b([r,q,p,M.bA(m,T.bP(H.b([F.di(m,this.c,"Phone Number",m,C.ao,m,m,m),F.di(m,this.d,"Password",!0,C.ao,m,m,m),new F.cT(new G.a31(l,this,b),"Login",C.a4,m,m),new T.c9(C.cu,L.aV("Version: 1.0.4\nDeveloped by Kakas Group \xa9\u0621",m,m,m,m,m,m,m,m,C.H,m,m),m)],n),C.u,C.a9,C.y),o,m,m,m,new V.ax(15,15,15,15),new V.ax(10,10,10,10),m)],n),C.u,C.a9,C.iQ)),m,m,new S.cA(m,s,m,m,m,m,C.Q),m,m,m,m),m)}}
+return M.dY(m,M.bA(C.X,E.fF(T.bP(H.b([r,q,p,M.bA(m,T.bP(H.b([F.di(m,this.c,"Phone Number",m,C.ao,m,m,m),F.di(m,this.d,"Password",!0,C.ao,m,m,m),new F.cT(new G.a31(l,this,b),"Login",C.a4,m,m),new T.c9(C.cu,L.aV("Version: 1.0.5\nDeveloped by Kakas Group \xa9",m,m,m,m,m,m,m,m,C.H,m,m),m)],n),C.u,C.a9,C.y),o,m,m,m,new V.ax(15,15,15,15),new V.ax(10,10,10,10),m)],n),C.u,C.a9,C.iQ)),m,m,new S.cA(m,s,m,m,m,m,C.Q),m,m,m,m),m)}}
 G.a31.prototype={
 $0:function(){var s=0,r=P.S(t.z),q,p=this,o,n,m,l,k,j
 var $async$$0=P.O(function(a,b){if(a===1)return P.P(b,r)
